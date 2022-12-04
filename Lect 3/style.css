@@ -1,4 +1,4 @@
-#myInput {
+#mySearch {
     width: 100%;
     font-size: 16px;
     padding: 12px 20px 12px 40px;
@@ -6,13 +6,13 @@
     margin-bottom: 12px;
 }
 
-#myUL {
+#myList {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
-#myUL li a {
+#myList li a {
     border: 1px solid #ddd;
     margin-top: -1px;
     background-color: #f6f6f6;
@@ -21,8 +21,4 @@
     font-size: 18px;
     color: black;
     display: block;
-}
-
-#myUL li a:hover:not(.header) {
-    background-color: #eee;
 }
