@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+}
+
+.input {
+    width: 90%;
+}
+
+.btn {
+    width: 9.5%;
+}
+
+.todo-list {
+    margin-left: -40px;
+    position: relative;
+}
+
+.todo-item {
+    background-color: cornflowerblue;
+    text-decoration: none;
+    list-style: none;
+}
+
+.todo-item h3 {
+    margin: 10px;
+}
