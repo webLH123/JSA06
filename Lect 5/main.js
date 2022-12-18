@@ -1,0 +1,43 @@
+console.log("hello")
+
+// Save Data to Local Storage (localStorage.setItem(key, value);)
+/*  localStorage.setItem("name1", "giang")
+    localStorage.setItem("name2", "khiet")
+    localStorage.setItem("age", "16")       */
+
+// Read Data from Local Storage (localStorage.getItem(key);)
+/* localStorage.getItem("name1") */
+
+// Remove Data from Local Storage (localStorage.removeItem(key);)
+/* localStorage.removeItem("name") */
+
+// Clear Local Storage (localStorage.clear();)
+/* localStorage.clear() */
+
+
+// JSON stringify
+// const obj = {name: "ha", age: 15, city: "hcm"};
+// const myJSON = JSON.stringify(obj);
+// const arr = ["khiet", "quang", "khoa", "hoang"];
+// const myJSON2 = JSON.stringify(arr);
+
+// JSON parse
+// const text = `{"name": "tri", "birth": "2006-12-18", "city": "hcm"}`;
+// const obj2 = JSON.parse(text);
+// obj2.birth = new Date(obj2.birth);
+// document.getElementById("test").innerHTML = obj2.name + ", " + obj2.birth;
+
+// Sign up
+// email = querySelector(email).value
+// username = querySelector(username).value
+// pw = querySelector(pw).value
+// user { email: email, username: username, pw: pw}
+// json = JSON.stringify
+// localStorage.setItem
+
+// Log in
+// LSUsername = JSON.parse(localStorage.getItem(username))
+// LSpw = JSON.parse(localStorage.getItem(pw))
+// if !username -> not exist
+// if LSpw != pw -> wrong pw
+// => sucessful
