@@ -28,9 +28,23 @@ console.log("hello")
 // document.getElementById("test").innerHTML = obj2.name + ", " + obj2.birth;
 
 // Sign up
-// email = querySelector(email).value
-// username = querySelector(username).value
-// pw = querySelector(pw).value
+let rgBtn = document.getElementById("register")
+
+function registerUser() {
+    let mail = document.getElementById("email").value
+    let usern = document.getElementById("username").value
+    let pw = document.getElementById("password").value
+
+    let user = {
+        email: mail,
+        username: usern,
+        password: pw
+    }
+
+    let myJSON = JSON.stringify(user)
+    console.log(myJSON)
+    localStorage.setItem("user", myJSON)
+}
 // user { email: email, username: username, pw: pw}
 // json = JSON.stringify
 // localStorage.setItem
