@@ -45,13 +45,3 @@ function registerUser() {
     console.log(myJSON)
     localStorage.setItem("user", myJSON)
 }
-// user { email: email, username: username, pw: pw}
-// json = JSON.stringify
-// localStorage.setItem
-
-// Log in
-// LSUsername = JSON.parse(localStorage.getItem(username))
-// LSpw = JSON.parse(localStorage.getItem(pw))
-// if !username -> not exist
-// if LSpw != pw -> wrong pw
-// => sucessful
